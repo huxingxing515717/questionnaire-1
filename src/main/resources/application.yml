@@ -3,8 +3,8 @@ spring:
   rabbitmq:
     host: 47.101.142.52
     port: 5672
-    username: guest
-    password: guest
+    username: xxx
+    password: xxx
     publisher-confirms: true
     publisher-returns: true
     listener:
@@ -14,9 +14,9 @@ spring:
 
   mail:
     host: 220.181.12.11
-    username: leezihao999@163.com
-    password: Question123
-    from: leezihao999@163.com
+    username: xxx@163.com
+    password: xxx
+    from: xxx@163.com
 
     properties:
       mail.smtp.auth: true
@@ -41,9 +41,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://rm-wz9zz14nrwy8p27an1o.mysql.rds.aliyuncs.com:3306/wen?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Hongkong
-    username: root
-    password: Questionnaire123
-    #\u6570\u636E\u5E93\u8FDE\u63A5\u6C60
+    username: xxx
+    password: xxx
     type: com.alibaba.druid.pool.DruidDataSource
   redis:
     host: 47.101.142.52
@@ -55,11 +54,11 @@ spring:
         max-wait: -1
         min-idle: 5
         max-idle: 10
-    password: sise
+    password: xxx
 
   data:
     mongodb:
-      uri: mongodb://root:sise@47.101.142.52:27017/?authSource=admin
+      uri: mongodb://xxx:xxx@47.101.142.52:27017/?authSource=admin
       database: wen
 
 
